@@ -37,7 +37,7 @@ body {
 
 #call-to-action {
     width: calc(100% - 250px);
-    background-color: var(--color-dark-grey);
+    background-color: #00000050;
     height: 70px;
     position: fixed;
     top: 0;
@@ -59,7 +59,8 @@ main {
 #card-container {
     width: calc(100% - 250px);
     background-color: var(--color-dark-color);
-    padding-top: 70px
+    padding-top: 70px;
+    overflow-y: auto ;
 }
 
 /* play bar */
