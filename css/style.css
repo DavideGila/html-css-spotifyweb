@@ -8,6 +8,11 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
 /* variables */
 
 :root {
@@ -20,3 +25,28 @@ body {
     --color-highlight: #adff2f;
 }
 
+                    /* body */
+
+/* main */
+
+#side-bar {
+    width: 250px;
+    background-color: var(--color-black);
+}
+
+#card-container {
+    width: 100%;
+    background-color: var(--color-dark-color);
+}
+
+/* play bar */
+
+#play-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 1000;
+    background-color: var(--color-grey);
+}
