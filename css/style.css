@@ -49,6 +49,11 @@ a {
     align-content: center;
 }
 
+.nav-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 /* call to action bar */
