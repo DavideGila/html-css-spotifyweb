@@ -14,6 +14,16 @@ body {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+    color: var(--color-light-grey);
+}
+
+.font-weight-white {
+    font-weight: bold;
+    color: var(--color-white);
+}
+
 /* variables */
 
 :root {
@@ -87,11 +97,6 @@ main {
     font-weight: 500;
 }
 
-#playlist-button {
-    font-weight: bold;
-    color: var(--color-white);
-}
-
 #plus-button {
     width: 40px;
     height: 40px;
@@ -103,6 +108,20 @@ main {
     text-align: center;
 }
 
+#download-button {
+    width: 15px;
+}
+
+.border-grey {
+    border-bottom: 1px solid var(--color-light-grey);
+}
+
+#john-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--color-light-grey);
+}
 
 
 /* play bar */
