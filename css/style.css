@@ -78,6 +78,7 @@ main {
     width: 250px;
     background-color: var(--color-black);
     color: var(--color-light-grey);
+    padding-bottom: 10px;
 }
 
 #card-container {
@@ -90,7 +91,7 @@ main {
 /* side bar content */
 
 .padding-nav {
-    padding: 10px 0 0 20px;
+    padding: 15px 0 0 20px;
 }
 
 #logo {
@@ -100,6 +101,7 @@ main {
 
 .nav-button {
     width: 30px;
+    margin-right: 10px;
 }
 
 .nav-section {
@@ -115,10 +117,12 @@ main {
     font-weight: 600;
     line-height: 40px;
     text-align: center;
+    margin-right: 10px
 }
 
 #download-button {
     width: 15px;
+    margin-right: 15px;
 }
 
 .border-grey {
