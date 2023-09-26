@@ -82,6 +82,26 @@ main {
     width: 30px;
 }
 
+.nav-section {
+    font-weight: 500;
+}
+
+#playlist-button {
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+#plus-button {
+    width: 40px;
+    height: 40px;
+    background: var(--color-light-grey);
+    color: var(--color-black);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+}
+
 
 
 /* play bar */
