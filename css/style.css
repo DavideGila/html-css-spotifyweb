@@ -29,9 +29,16 @@ body {
 
 /* flex */
 
-.main-flex {
+.d-flex {
     display: flex;
 }
+
+.align-center {
+    align-items: center;
+    align-content: center;
+}
+
+
 
 /* call to action bar */
 
@@ -54,6 +61,7 @@ main {
 #side-bar {
     width: 250px;
     background-color: var(--color-black);
+    color: var(--color-light-grey);
 }
 
 #card-container {
@@ -62,6 +70,19 @@ main {
     padding-top: 70px;
     overflow-y: auto ;
 }
+
+/* side bar content */
+
+#logo {
+    width: 80%;
+    padding: 20px;
+}
+
+.nav-button {
+    width: 30px;
+}
+
+
 
 /* play bar */
 
