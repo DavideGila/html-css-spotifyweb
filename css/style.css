@@ -84,9 +84,13 @@ main {
 
 /* side bar content */
 
+.padding-nav {
+    padding: 10px 0 0 20px;
+}
+
 #logo {
     width: 80%;
-    padding: 20px;
+    padding: 20px 0 0 20px;
 }
 
 .nav-button {
@@ -114,6 +118,8 @@ main {
 
 .border-grey {
     border-bottom: 1px solid var(--color-light-grey);
+    margin: 0 20px;
+    padding-bottom: 10px;
 }
 
 #john-image {
