@@ -49,6 +49,10 @@ a {
     align-content: center;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .nav-flex {
     display: flex;
     flex-direction: column;
@@ -94,7 +98,7 @@ main {
 #card-container {
     width: calc(100% - 250px);
     background-color: var(--color-dark-color);
-    padding-top: 70px;
+    padding-top: 100px;
     overflow-y: auto ;
 }
 
@@ -148,6 +152,13 @@ main {
     background-color: var(--color-light-grey);
 }
 
+/* main content */
+
+#card-container li {
+    color: var(--color-light-grey);
+    font-weight: 400;
+    padding-left: 25px;
+}
 
 /* play bar */
 
@@ -156,3 +167,4 @@ main {
     height: 90px;
     background-color: var(--color-grey);
 }
+
