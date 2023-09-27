@@ -167,6 +167,10 @@ main {
     margin-right: 10px;
 }
 
+.border-green {
+    border-left: 3px solid var(--color-highlight);
+} 
+
 /* main content */
 
 #card-container li {
