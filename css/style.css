@@ -195,6 +195,11 @@ main {
     padding: 0 0 40px 20px;
 }
 
+.card-title p {
+    color: var(--color-light-grey);
+    text-align: center;
+}
+
 section:nth-child(4) .section-main-title {
     padding-bottom: 20px;
 }
