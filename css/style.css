@@ -350,3 +350,17 @@ input[type="range"]::-webkit-slider-runnable-track{
 }
 
 /* max-width:768px */
+
+@media screen and (max-width:768px) {
+    .card {
+        width: calc(100% / 2 - 15px);
+    }
+
+    .flex-wrap {
+        flex-flow: row wrap;
+    }
+
+    #card-container li {
+        padding-bottom: 40px;
+    }
+}
