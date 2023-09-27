@@ -363,4 +363,12 @@ input[type="range"]::-webkit-slider-runnable-track{
     #card-container li {
         padding-bottom: 40px;
     }
+
+    #length-bar {
+        width: 150px;
+    }
+
+    #volume-bar {
+        width: 80px;
+    }
 }
