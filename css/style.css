@@ -227,7 +227,11 @@ section:nth-child(5) .section-main-title {
     border-radius: 50%;
 }
 
-
+.border-green-container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid var(--color-highlight);
+}
 
 /* play bar */
 
