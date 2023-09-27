@@ -24,6 +24,10 @@ a {
     color: var(--color-white);
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* variables */
 
 :root {
@@ -159,6 +163,23 @@ main {
     font-weight: 400;
     padding-left: 25px;
 }
+
+/* cards */
+
+.card-img {
+    width: 300px;
+    height: 300px;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card {
+    width: calc(100% / 6);
+}
+
+
 
 /* play bar */
 
