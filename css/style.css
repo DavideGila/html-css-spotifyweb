@@ -337,3 +337,16 @@ input[type="range"]::-webkit-slider-runnable-track{
 .d-flex .fa-volume-high {
     padding-right: 15px;
 }
+
+
+/* media query */
+
+/* max-width:1200px */
+
+@media screen and (max-width:1200px) {
+    .card {
+        width: calc(100% / 4 - 15px);
+    }
+}
+
+/* max-width:768px */
