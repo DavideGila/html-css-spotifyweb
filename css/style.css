@@ -73,11 +73,6 @@ a {
     gap: 25px;
 }
 
-.c-flex {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-}
 
 /* call to action bar */
 
@@ -385,6 +380,12 @@ input[type="range"]::-webkit-slider-runnable-track{
 /* max-width:576px */
 @media screen and (max-width:576px) {
     
+    .c-flex {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
     #logo {
         display: none;
     }
