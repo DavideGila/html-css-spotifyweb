@@ -173,7 +173,7 @@ main {
 }
 
 .border-green {
-    border-left: 3px solid var(--color-highlight);
+    border-left: 0;   
 } 
 
 .bg-black {
@@ -491,4 +491,35 @@ input[type="range"]::-webkit-slider-runnable-track{
         margin-left: 15px;
     }
 }
-    
+
+
+/* decorations */
+
+#logo:hover {
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.nav-button {
+    transition: 0.5s;
+}
+
+.nav-button:hover {
+    transform: scale(1.2);
+}
+
+.border-green:hover {
+    border-left: 3px solid var(--color-highlight);
+}
+
+#plus-button {
+    transition: 0.5s;
+}
+
+#plus-button:hover{
+    cursor: pointer;
+    background-color: var(--color-white);
+}
