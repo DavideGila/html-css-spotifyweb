@@ -181,6 +181,11 @@ main {
     background-color: var(--color-black);
 }
 
+.overflow-playlist {
+    height: 200px;
+    overflow-y: auto;
+}
+
 /* main content */
 
 #card-container li {
@@ -571,9 +576,9 @@ li:hover {
     background-color: var(--color-white);
 }
 
-.overflow-playlist {
-    height: 200px;
-    overflow-y: auto;
+.overflow-playlist li:hover {
+    text-decoration: underline;
+    color: var(--color-white);
 }
 
 /* call to action */
