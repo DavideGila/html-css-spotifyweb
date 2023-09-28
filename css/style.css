@@ -70,8 +70,13 @@ a {
 }
 
 .gap-flex {
-    gap: 25px
-;
+    gap: 25px;
+}
+
+.c-flex {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 /* call to action bar */
@@ -125,6 +130,10 @@ main {
 #logo {
     width: 80%;
     padding: 20px 0 0 20px;
+}
+
+#logo-small {
+    display: none;
 }
 
 .nav-button {
@@ -375,6 +384,44 @@ input[type="range"]::-webkit-slider-runnable-track{
 
 /* max-width:576px */
 @media screen and (max-width:576px) {
+    
+    #logo {
+        display: none;
+    }
+
+    #logo-small {
+        display: block;
+        width: 30px;
+    }
+
+    .padding-nav {
+        padding-left: 10px;
+    }
+    
+    .padding-nav img {
+        width: 30px;    
+    }
+
+    .border-green, .border-grey {
+        border: 0px;
+    }
+
+    .nav-section {
+        display: none;
+    }
+
+    .display-none-side-bar {
+        display: none;
+    }
+
+    #download-button {
+        margin-right: 0;
+    }
+
+    .border-grey {
+        padding-bottom: 0;
+    }
+
     .card {
         width: calc(100% / 2 - 15px);
     }
