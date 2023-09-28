@@ -571,6 +571,11 @@ li:hover {
     background-color: var(--color-white);
 }
 
+.overflow-playlist {
+    height: 200px;
+    overflow-y: auto;
+}
+
 /* call to action */
 
 #call-to-action a {
