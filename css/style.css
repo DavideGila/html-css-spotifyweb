@@ -201,6 +201,12 @@ main {
     gap: 15px;
 }
 
+.card-img {
+    background-color: var(--color-black);
+    top: 0;
+    left: 0;
+}
+
 .card-img img {
     width: 100%;
     display: block;
@@ -208,6 +214,7 @@ main {
 
 .card {
     width: calc(100% / 6 - 15px);
+    position: relative;
 }
 
 .card-title .text-center{
@@ -222,6 +229,7 @@ main {
 .card-title p {
     color: var(--color-light-grey);
     text-align: center;
+    padding-bottom: 20px
 }
 
 section:nth-child(4) .section-main-title {
@@ -240,6 +248,7 @@ section:nth-child(5) .section-main-title {
     width: 80%;
     margin: 0 auto;
     border: 1px solid var(--color-highlight);
+    opacity: 0;
 }
 
 /* play bar */
@@ -252,7 +261,7 @@ section:nth-child(5) .section-main-title {
     padding: 15px 15px;
     bottom: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 4000;
 }
 
 #play-bar img {
@@ -493,7 +502,9 @@ input[type="range"]::-webkit-slider-runnable-track{
 }
 
 
-/* decorations */
+                    /* decorations */
+
+/* side bar */
 
 #logo:hover {
     cursor: pointer;
@@ -522,4 +533,26 @@ li:hover {
 #plus-button:hover{
     cursor: pointer;
     background-color: var(--color-white);
+}
+
+/* call to action */
+
+#call-to-action a {
+    transition: 0.3s;
+}
+
+#call-to-action a:hover {
+    transform: scale(1.1);
+}
+
+#card-container li:hover .border-green-container {
+    opacity: 1;
+}
+
+/* cards */
+
+.card-img:hover {
+    position: relative;
+    opacity: 1;
+    z-index: 1000;
 }
