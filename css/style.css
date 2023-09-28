@@ -596,3 +596,43 @@ li:hover {
     display: block;
     cursor: pointer;
 }
+
+/* play bar */
+
+#play-bar p:hover {
+    color: var(--color-white);
+}
+
+.album-song h4:hover, .album-song p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#fa-heart, #fa-folder {
+    transition: 1s;
+}
+
+#play-bar #fa-heart:hover, #play-bar #fa-folder:hover  {
+    cursor: pointer;
+    color: #1FDF64;
+    transform: scale(1.2);
+}
+
+#play-bar i:hover {
+    color: #1FDF64;
+    cursor: pointer;
+}
+
+.play-bar-flex .fa-shuffle:hover, .fa-backward-step:hover, .fa-forward-step:hover, .fa-rotate-right:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#play-bar .fa-circle-play:hover {
+    cursor: pointer;
+    transform: scale(1.3)
+}
+
+#length-bar::-webkit-slider-thumb:hover {
+    box-shadow: -200px 0 0 200px #1FDF64;
+}
